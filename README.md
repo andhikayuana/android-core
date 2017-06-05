@@ -33,8 +33,58 @@ dependencies {
 
 ## How to use this
 
-TODO :D
+1. Fragment
 
+```java
+public class LoginFragment extends BaseFragment<LoginPresenter> {
+
+    @Override
+    public void showLoading() {
+        //do your implementation
+    }
+
+    @Override
+    public void dismissLoading() {
+        //do your implementation
+    }
+
+    @Override
+    public void showError(Throwable throwable) {
+        //do your implementation
+    }
+
+    @Override
+    protected void initView(View v) {
+        //do your implementation
+    }
+
+    @Override
+    protected LoginPresenter initPresenter() {
+        return new LoginPresenter();
+    }
+
+    @Override
+    protected int setView() {
+        return R.layout.fragment_login;
+    }
+}
+```
+
+2. Presenter
+
+```java
+public class LoginPresenter extends BasePresenter<LoginView> {
+    //do your implementation
+}
+```
+
+3. View
+
+```java
+public interface LoginView extends BaseView {
+    //do your implementation
+}
+```
 
 ## Contributing
 
