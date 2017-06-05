@@ -139,6 +139,29 @@ public class ContactsViewHolder extends BaseViewHolder<Contact> {
 }
 ```
 
+6. DialogFragment
+
+```java
+public class AddContactDialogFragmnet extends BaseDialogFragment {
+
+    @Override
+    protected void initView(View view) {
+        //do your implementation
+    }
+
+    @Override
+    protected Dialog setupDialog(AlertDialog.Builder builder) {
+        //do your implementation like setTitle(); and many more
+        return builder.create();
+    }
+
+    @Override
+    protected int setView() {
+        return R.layout.dialog_fragment_add_contact;
+    }
+}
+```
+
 ## Contributing
 
 1. Fork it!
