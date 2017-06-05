@@ -86,6 +86,59 @@ public interface LoginView extends BaseView {
 }
 ```
 
+4. RecyclerViewAdapter
+
+```java
+public class ContactsAdapter extends BaseRecyclerViewAdapter<Contact, ContactsViewHolder> {
+
+    public ContactsAdapter(Context context) {
+        super(context);
+    }
+
+    @Override
+    protected ContactsViewHolder initViewHolder(View view) {
+        return new ContactsViewHolder(view);
+    }
+
+    @Override
+    protected int setItemView(int viewType) {
+        return R.layout.item_contact;
+    }
+}
+```
+
+Example use in activity
+
+```java
+ContactsAdapter adapter = new ContactsAdapter(this);
+
+// now you can use some methods :
+adapter.get(1); // to get an item object by position
+adapter.add(contact); // to add an item
+adapter.indexOf(contact); // to get index of an item
+adapter.updateAt(1, contact); // to update item at some index position
+adapter.addAll(contacts); // to add item list or array of item
+adapter.remove(contact); // to remove an item
+adapter.removeItemAt(1); // to remove item at some index
+adapter.clear(); // to remove all item
+```
+
+5. RecyclerView ViewHolder
+
+```java
+public class ContactsViewHolder extends BaseViewHolder<Contact> {
+
+    public ContactsViewHolder(View itemView) {
+        super(itemView);
+    }
+
+    @Override
+    public void bind(Contact item) {
+
+    }
+}
+```
+
 ## Contributing
 
 1. Fork it!
