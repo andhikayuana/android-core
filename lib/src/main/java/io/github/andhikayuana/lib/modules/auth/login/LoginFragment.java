@@ -1,13 +1,12 @@
-package io.github.andhikayuana.core.login;
+package io.github.andhikayuana.lib.modules.auth.login;
 
 import android.view.View;
 
-import io.github.andhikayuana.core.R;
 import io.github.andhikayuana.lib.base.BaseFragment;
 
 /**
  * @author yuana <andhikayuana@gmail.com>
- * @since 6/5/17
+ * @since 6/12/17
  */
 
 public class LoginFragment extends BaseFragment<LoginPresenter> {
@@ -29,15 +28,16 @@ public class LoginFragment extends BaseFragment<LoginPresenter> {
 
     @Override
     protected void initView(View v) {
+
     }
 
     @Override
     protected LoginPresenter initPresenter() {
-        return new LoginPresenter();
+        return null;
     }
 
     @Override
     protected int setView() {
-        return R.layout.fragment_login;
+        return 0;
     }
 }

@@ -4,4 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!--todo init the view for wrap the fragment here-->
+
 </LinearLayout>
