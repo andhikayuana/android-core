@@ -27,7 +27,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.andhikayuana:android-core:6bc800fa8b'
+    compile 'com.github.andhikayuana:android-core:0.0.1-alpha'
 }
 ```
 
