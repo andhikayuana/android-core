@@ -25,7 +25,7 @@ public class Yuana {
         private String appName;
 
         private Config(Builder builder) {
-            appName = builder.appName;
+            this.appName = builder.appName;
         }
 
         public static Builder Builder() {
@@ -39,8 +39,8 @@ public class Yuana {
             private Builder() {
             }
 
-            public Builder setAppName(String val) {
-                appName = val;
+            public Builder setAppName(String appName) {
+                this.appName = appName;
                 return this;
             }
 

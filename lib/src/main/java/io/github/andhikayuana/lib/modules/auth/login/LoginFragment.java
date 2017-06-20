@@ -33,7 +33,7 @@ public class LoginFragment extends BaseFragment<LoginPresenter> {
 
     @Override
     protected LoginPresenter initPresenter() {
-        return null;
+        return new LoginPresenter();
     }
 
     @Override
