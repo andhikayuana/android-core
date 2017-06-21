@@ -6,6 +6,7 @@ package io.github.andhikayuana.lib.confg;
  */
 
 public class YuanaConfig {
+
     private String appName;
 
     private YuanaConfig(Builder builder) {

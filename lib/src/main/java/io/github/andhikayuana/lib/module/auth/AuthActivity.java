@@ -1,4 +1,4 @@
-package io.github.andhikayuana.lib.modules.auth;
+package io.github.andhikayuana.lib.module.auth;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

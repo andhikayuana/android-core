@@ -1,4 +1,4 @@
-package io.github.andhikayuana.lib.modules.splash;
+package io.github.andhikayuana.lib.module.splash;
 
 import android.content.Intent;
 import android.os.Bundle;
