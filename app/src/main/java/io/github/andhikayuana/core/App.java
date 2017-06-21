@@ -3,6 +3,7 @@ package io.github.andhikayuana.core;
 import android.app.Application;
 
 import io.github.andhikayuana.lib.Yuana;
+import io.github.andhikayuana.lib.confg.YuanaConfig;
 
 /**
  * @author yuana <andhikayuana@gmail.com>
@@ -19,12 +20,19 @@ public class App extends Application {
     }
 
     private void initYuanaCore() {
+
         // TODO: 6/12/17 initialize concept here
-        Yuana.Config config = Yuana.Config
+
+        YuanaConfig yuanaConfig = YuanaConfig
                 .Builder()
-                .setAppName("Hello")
+                .setAppName("Hello App")
                 .build();
 
-        Yuana.init(this, config);
+        Yuana.init(this, yuanaConfig);
+
+        Yuana.getSplashConfig()
+                .setAfterSplashActivityClass(MainActivity.class)
+                .setDurationMilis(3000)
+                .setLayout(R.layout.fragment_login);
     }
 }

@@ -3,6 +3,9 @@ package io.github.andhikayuana.lib;
 import android.app.Application;
 import android.content.Context;
 
+import io.github.andhikayuana.lib.confg.SplashConfig;
+import io.github.andhikayuana.lib.confg.YuanaConfig;
+
 /**
  * @author yuana <andhikayuana@gmail.com>
  * @since 6/12/17
@@ -12,41 +15,30 @@ public class Yuana {
 
     private static Application sAplication;
     private static Context sContext;
-    private static Config sConfig;
+    private static YuanaConfig sYuanaConfig;
+    private static SplashConfig mSplashConfig;
 
-    public static void init(Application application, Config config) {
+    public static void init(Application application, YuanaConfig yuanaConfig) {
         sAplication = application;
         sContext = sAplication.getApplicationContext();
-        sConfig = config;
+        sYuanaConfig = yuanaConfig;
+
+        mSplashConfig = new SplashConfig();
     }
 
+    public static synchronized Application getApplication() {
+        return sAplication;
+    }
 
-    public static class Config {
-        private String appName;
+    public static synchronized Context getContext() {
+        return sContext;
+    }
 
-        private Config(Builder builder) {
-            this.appName = builder.appName;
-        }
+    public static YuanaConfig getConfig() {
+        return sYuanaConfig;
+    }
 
-        public static Builder Builder() {
-            return new Builder();
-        }
-
-
-        public static final class Builder {
-            private String appName;
-
-            private Builder() {
-            }
-
-            public Builder setAppName(String appName) {
-                this.appName = appName;
-                return this;
-            }
-
-            public Config build() {
-                return new Config(this);
-            }
-        }
+    public static SplashConfig getSplashConfig() {
+        return mSplashConfig;
     }
 }
