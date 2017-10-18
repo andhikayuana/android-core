@@ -9,4 +9,7 @@ import io.github.andhikayuana.lib.base.BasePresenter;
 
 public class LoginPresenter extends BasePresenter<LoginView> {
 
+    public void login() {
+        mView.showLoading();
+    }
 }

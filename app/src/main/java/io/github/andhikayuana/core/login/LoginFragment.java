@@ -29,6 +29,7 @@ public class LoginFragment extends BaseFragment<LoginPresenter> {
 
     @Override
     protected void initView(View v) {
+        mPresenter.login();
     }
 
     @Override
