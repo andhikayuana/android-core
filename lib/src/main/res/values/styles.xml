@@ -3,163 +3,163 @@
 
     <!--begin button style-->
 
-    <style name="Yuana.Button.Colored.Turquoise" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Turquoise" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_turquoise</item>
     </style>
 
-    <style name="Yuana.Button.Colored.GreenSea" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.GreenSea" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_green_sea</item>
     </style>
 
-    <style name="Yuana.Button.Colored.SunFlower" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.SunFlower" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_sun_flower</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Orange" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Orange" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_orange</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Emerald" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Emerald" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_emerald</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Nephritis" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Nephritis" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_nephritis</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Carrot" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Carrot" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_carrot</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Pumpkin" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Pumpkin" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_pumpkin</item>
     </style>
 
-    <style name="Yuana.Button.Colored.PeterRiver" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.PeterRiver" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_peter_river</item>
     </style>
 
-    <style name="Yuana.Button.Colored.BelizeHole" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.BelizeHole" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_belize_hole</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Alizarin" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Alizarin" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_alizarin</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Pomegranate" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Pomegranate" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_pomegranate</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Amethyst" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Amethyst" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_amethyst</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Wisteria" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Wisteria" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_wisteria</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Clouds" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Clouds" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_clouds</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Silver" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Silver" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_silver</item>
     </style>
 
-    <style name="Yuana.Button.Colored.WetAsphalt" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.WetAsphalt" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_wet_asphalt</item>
     </style>
 
-    <style name="Yuana.Button.Colored.MidnightBlue" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.MidnightBlue" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_midnight_blue</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Concrete" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Concrete" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_concrete</item>
     </style>
 
-    <style name="Yuana.Button.Colored.Asbestos" parent="Yuana.Button.Colored">
+    <style name="Button.Colored.Asbestos" parent="Yuana.Button.Colored">
         <item name="colorButtonNormal">@color/flat_asbestos</item>
     </style>
 
-    <style name="Yuana.Button.Turquoise" parent="Yuana.Button">
+    <style name="Button.Turquoise" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_turquoise</item>
     </style>
 
-    <style name="Yuana.Button.GreenSea" parent="Yuana.Button">
+    <style name="Button.GreenSea" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_green_sea</item>
     </style>
 
-    <style name="Yuana.Button.SunFlower" parent="Yuana.Button">
+    <style name="Button.SunFlower" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_sun_flower</item>
     </style>
 
-    <style name="Yuana.Button.Orange" parent="Yuana.Button">
+    <style name="Button.Orange" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_orange</item>
     </style>
 
-    <style name="Yuana.Button.Emerald" parent="Yuana.Button">
+    <style name="Button.Emerald" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_emerald</item>
     </style>
 
-    <style name="Yuana.Button.Nephritis" parent="Yuana.Button">
+    <style name="Button.Nephritis" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_nephritis</item>
     </style>
 
-    <style name="Yuana.Button.Carrot" parent="Yuana.Button">
+    <style name="Button.Carrot" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_carrot</item>
     </style>
 
-    <style name="Yuana.Button.Pumpkin" parent="Yuana.Button">
+    <style name="Button.Pumpkin" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_pumpkin</item>
     </style>
 
-    <style name="Yuana.Button.PeterRiver" parent="Yuana.Button">
+    <style name="Button.PeterRiver" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_peter_river</item>
     </style>
 
-    <style name="Yuana.Button.BelizeHole" parent="Yuana.Button">
+    <style name="Button.BelizeHole" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_belize_hole</item>
     </style>
 
-    <style name="Yuana.Button.Alizarin" parent="Yuana.Button">
+    <style name="Button.Alizarin" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_alizarin</item>
     </style>
 
-    <style name="Yuana.Button.Pomegranate" parent="Yuana.Button">
+    <style name="Button.Pomegranate" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_pomegranate</item>
     </style>
 
-    <style name="Yuana.Button.Amethyst" parent="Yuana.Button">
+    <style name="Button.Amethyst" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_amethyst</item>
     </style>
 
-    <style name="Yuana.Button.Wisteria" parent="Yuana.Button">
+    <style name="Button.Wisteria" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_wisteria</item>
     </style>
 
-    <style name="Yuana.Button.Clouds" parent="Yuana.Button">
+    <style name="Button.Clouds" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_clouds</item>
     </style>
 
-    <style name="Yuana.Button.Silver" parent="Yuana.Button">
+    <style name="Button.Silver" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_silver</item>
     </style>
 
-    <style name="Yuana.Button.WetAsphalt" parent="Yuana.Button">
+    <style name="Button.WetAsphalt" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_wet_asphalt</item>
     </style>
 
-    <style name="Yuana.Button.MidnightBlue" parent="Yuana.Button">
+    <style name="Button.MidnightBlue" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_midnight_blue</item>
     </style>
 
-    <style name="Yuana.Button.Concrete" parent="Yuana.Button">
+    <style name="Button.Concrete" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_concrete</item>
     </style>
 
-    <style name="Yuana.Button.Asbestos" parent="Yuana.Button">
+    <style name="Button.Asbestos" parent="Yuana.Button">
         <item name="android:textColor">@color/flat_asbestos</item>
     </style>
 

@@ -1,4 +1,4 @@
-package io.github.andhikayuana.lib.modules.splash;
+package io.github.andhikayuana.lib.module.auth;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,17 +11,17 @@ import io.github.andhikayuana.lib.base.BaseActivity;
  * @since 6/12/17
  */
 
-public class SplashActivity extends BaseActivity {
+public class AuthActivity extends BaseActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_auth);
 
         initView();
     }
 
     private void initView() {
-        // TODO: 6/12/17 customizable layout maybe using callback
+        // TODO: 6/12/17 initialize the view and setup some fragment in auth module
     }
 }

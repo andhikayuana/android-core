@@ -1,4 +1,4 @@
-package io.github.andhikayuana.lib.modules.auth.login;
+package io.github.andhikayuana.lib.module.auth.login;
 
 import android.view.View;
 
